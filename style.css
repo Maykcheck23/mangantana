@@ -1,0 +1,215 @@
+body.intro{
+  font-family: Arial, sans-serif;
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  
+}
+.rec{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #dfc6a0;
+  z-index: -1; 
+}
+
+h1.title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  text-align: left;
+  color: #ffffff;
+}
+section.message{
+  text-align: center;
+  margin-top: 350px;
+  color: rgb(28, 20, 20);
+  font-size: larger;
+}
+.start-btn{
+    margin-left: 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 70px;
+    background-color: #424e57; 
+    color: rgb(7, 6, 6);
+    text-decoration: none;    
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    
+}
+.btn:hover {
+    background-color: #171414; 
+    cursor: pointer;
+}
+
+ .navbar {
+  background-color: #262648;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between; 
+  gap: 1px;
+  height: 50px;
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.dropdown {
+  color: white;
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+  top: 100%; 
+  left: 0;
+}
+
+.dropdown-content a {
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #d11818;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.hero {
+      background-image: url('bg.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      position: relative;
+      height: 500px;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+    }
+
+    .hero-content {
+      position: absolute;
+      text-align: left;
+      max-width: 700px;
+      z-index: 2;
+      padding: 20px;
+      left: 10px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+.trivia{
+  padding: 60px 40px;
+  background-color: #fff8f5;
+  text-align: center;
+}
+
+.trivia-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  
+}
+
+.trivia-box {
+  background-color: white;
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+ 
+}
+
+.trivia-box h3 {
+  margin-top: 0;
+  color: #c62828;
+}
+
+.trivia-box p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.backg{
+  background-color: #15261b;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  padding: 10px;
+  margin-top: 10px;
+  
+}
+.picture{
+  height: 700px;
+  left: 10px;
+  width: 100%;
+}
+.content {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin-top: 10px;
+  background-color: white;
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+h1.ss {
+  font-size: 26px;
+  border-top: 2px solid #f0863c;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #1f1f1f;
+}
+
+strong {
+  color: #000;
+}
+
+em {
+  font-style: italic;
+}
+
