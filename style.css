@@ -167,43 +167,36 @@ section.message{
   font-size: 0.95rem;
   line-height: 1.5;
 }
-.backg{
-  background-color: #15261b;
-  background-size: cover;
-  background-position: center;
-  height: 700px;
-  padding: 10px;
-  margin-top: 10px;
-  
-}
-.picture{
-  height: 700px;
-  left: 10px;
-  width: 100%;
-}
-.content {
-  max-width: 700px;
-  margin: auto;
-  background: #fff;
-  padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  margin-top: 10px;
-  background-color: white;
-  padding: 20px;
-  max-width: 300px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  text-align: left;
+.backg {
+  text-align: center;
+  margin-top: 20px;
 }
 
-h1.ss {
-  font-size: 26px;
-  border-top: 2px solid #f0863c;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  color: #1f1f1f;
+.contents {
+  margin: 20px auto;
+  width: 80%;
+  padding: 20px;
+  background-color: #fff6e5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-size: 16px;
+  line-height: 1.6;
 }
+
+.picture {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.ss {
+  font-size: 24px;
+  color: #262648;
+  margin-top: 30px;
+}
+
 
 strong {
   color: #000;
@@ -213,3 +206,12 @@ em {
   font-style: italic;
 }
 
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #262648;
+  color: white;
+  font-size: 14px;
+  margin-top: 40px;
+  border-top: 2px solid #dfc6a0;
+}
